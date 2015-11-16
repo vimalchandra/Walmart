@@ -1,4 +1,3 @@
-Instructions:
 
 Test Scenario: 
 
@@ -14,12 +13,22 @@ To run this project we need the following:
 	• Selenium WebDriver for Java. It can be downloaded from http://www.seleniumhq.org/download/
 	• Chrome driver(WebDriver for Chrome). It can be downloaded from https://sites.google.com/a/chromium.org/chromedriver/getting-started
 
+
+Technical Choices: 
+
+I have used Selenium WebDriver with Java to automate the scenario. 
+I have chosen it over other options because it supports many languages, multi browser, cross platform, integrates well with existing frameworks, has its own IDE, etc.Though watir web driver is also a good option but it is only limited to Ruby langauge and every browser requires a different library which is a drawback.
+
+I have covered all the steps from the given scenario. The code I have implemented works for the search terms tv, dvd and toys.It works fine for most of the items in socks except for those which have color and size options associated to them. It also works fine for some of the items in iphone except for those which have color and capacity options associated to them.If I have time I would have implemented the select item functionality that works for all the search terms given.
+
+
 Details of the Project:
 
 Based on analysis of the given scenario initially I have identified the reusable functions. The project is divided mainly into 3 parts. They are Reusable functions, Test Scenario and Object Repository. 
 	• Reusable_Functions.java file consists of different functions like LaunchApplication, Login, SearchItem, SelectItem, ValidateCartItem, etc. which can be used in different tests.
 	• TestScenario.java file consists of test steps that we need to execute to get the required result. It calls the reusable functions from the Reusable_Functions.java file and execute the steps in order.It also has input variables and web element declarations we need to pass to the functions.
 	• Object Repository has all the objects we use to identify the web elements. This file has all the objects like xpath, id, name, and class etc. of different web elements grouped together at one place.We can access this file in the java files and utilize the objects instead of use them directly in the code. If there is change in any object we can edit it in the object repository file and we don’t need to modify the code.
+
 
 Reusable_Functions:
 
@@ -69,9 +78,6 @@ LG DP132 DVD Player
 Verbatim DVD-R 4.7GB 16X AZO 50pk Spindle
 Memorex DVD-RW Discs, 4.7GB, 4x, w/Slim Jewel Cases, Silver, 10/Pack
 
-Technical Choices: I have used Selenium WebDriver with Java to automate the scenario. 
-I have chosen it over other options because it supports many languages, multi browser, cross platform, integrates well with existing frameworks, has its own IDE, etc.Though watir web driver is also a good option but it is only limited to Ruby langauge and every browser requires a different library which is a drawback.
 
-I have covered all the steps from the given scenario. The code I have implemented works for the search terms tv, dvd and toys.It works fine for most of the items in socks except for those which have color and size options associated to them. It also works fine for some of the items in iphone except for those which have color and capacity options associated to them.If I have time I would have implemented the select item functionality that works for all the search terms given.
 
 
