@@ -12,6 +12,7 @@ Pre-Requisites:
 To run this project we need the following:
 	• Selenium WebDriver for Java. It can be downloaded from http://www.seleniumhq.org/download/
 	• Chrome driver(WebDriver for Chrome). It can be downloaded from https://sites.google.com/a/chromium.org/chromedriver/getting-started
+        • The cart should be empty intially
 
 
 Technical Choices: 
