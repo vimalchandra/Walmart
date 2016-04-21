@@ -29,8 +29,7 @@ public class Reusable_Functions {
 		driver.manage().timeouts().implicitlyWait(waittime, TimeUnit.SECONDS);
 	}
 	
-	/**
-	 * @author Vimal
+	/*
 	   Method for launching the requested Web page
 	 */
 	
@@ -64,8 +63,7 @@ public class Reusable_Functions {
 		
 	}
 	
-	/**
-	 * @author Vimal
+	/*
 	   Method for logging into the account
 	 */
 	
@@ -80,8 +78,7 @@ public class Reusable_Functions {
 		Thread.sleep(3000);
 	}
 	
-	/**
-	 * @author Vimal
+	/*
 	   Method for searching requested item 
 	 */
 	
@@ -96,8 +93,7 @@ public class Reusable_Functions {
 		Thread.sleep(4000);		
 	}
 	
-	/**
-	 * @author Vimal
+	/*
 	   Method for searching requested item 
 	 */
 	
@@ -120,8 +116,7 @@ public class Reusable_Functions {
 		return value;
 	}
 	
-	/**
-	 * @author Vimal
+	/*
 	   Method for selecting requested number of items 
 	 */
 	
@@ -132,8 +127,7 @@ public class Reusable_Functions {
 		 quant.selectByVisibleText(visibletext);		 
 	}
 	
-	/**
-	 * @author Vimal
+	/*
 	   Method for adding items to the cart 
 	 */
 	
@@ -152,8 +146,7 @@ public class Reusable_Functions {
 		Thread.sleep(3000);
 	}
 	
-	/**
-	 * @author Vimal
+	/*
 	   Method for viewing items in the cart 
 	 */
 	
@@ -164,8 +157,7 @@ public class Reusable_Functions {
 		Thread.sleep(2000);
 	}
 	
-	/**
-	 * @author Vimal
+	/*
 	   Method for validating the items in the cart 
 	 */
 	
